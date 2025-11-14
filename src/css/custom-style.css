@@ -1,0 +1,51 @@
+/* Sidebar buttons styling & effects */
+.sidebar-button {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-button:hover {
+  transform: scale(1.05);
+}
+
+/* Sidebar styling & effects */
+.sidebar-closed {
+  width: 50px;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.sidebar-closed span {
+  opacity: 0;
+  color: #212529;
+  white-space: nowrap;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-opened {
+  width: 220px;
+  color: #fff;
+  transition: width 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-opened span {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+/* Sidebar title */
+.sidebar-title {
+  opacity: 1;
+  white-space: nowrap;
+  transition: opacity 0.3s ease, width 0.3s ease;
+}
+
+.sidebar-title.hide {
+  opacity: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.dropdown-menu-dark {
+  background-color: #212529 !important;
+}
